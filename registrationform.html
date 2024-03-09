@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- external css link -->
+
+    <link rel="stylesheet" href="registrationform.css">
+
+    <!-- bootstrap tag of icon -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+
+
+<body >
+
+
+   
+
+      <!-- navbar -->
+
+
+      <nav class="responsivenav">
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <a href="home.html"><img style="height: 100px; text-indent: 10px;padding-left: 25px;"
+                    src="img/light full logo.png" alt=""></a>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#"><b>Coffee Time</b></a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="/home.html" class="nava">Home</a></li>
+                    <li><a href="/aboutus.html" class="nava">Aboutus</a></li>
+                    <li>
+                    </li>
+                    <li><a href="/coffeeshop.html" class="nava">Shop</a></li>
+                    <!-- <li><a href="" class="nava">Menu</a></li> -->
+                    <li><a href="/contactus.html" class="nava">Contactus</a></li>
+                    <li><a href="/registrationform.html" class="nava">Form</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+
+
+<div class="foralignment img-fluid">
+<!-- registration form -->
+
+
+<div class="container" style="margin-top: 80px; " >
+    <form method="GET" onsubmit="reuser()">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"><b>Email address</b></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" required aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"><b>Password</b></label>
+          <input type="password" class="form-control" required id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label form-text" for="exampleCheck1">Check me out</label>
+        </div>
+        <button  type="submit" style="width: auto; padding: 7px;" class="sign-in">Sign in</button>
+      </form>
+    </div>
+    </div>
+   <!-- footer -->
+
+   <footer style="background-color: #f3e8e8;">
+    <div class="w-100"><br>
+
+        <div
+            style="justify-content: center; text-align: center; background-color: #21120A; color: #C5C6C7; padding: 17px;">
+            <h5><b>Get your First munch</b></h5>
+            <a href="registrationform.html"> <button class="sign-in">Sign In</button></a>
+            <p>New comers? Register here for ordering</p>
+        </div>
+
+
+        <div class="footerimg row w-100" style="color: #c5c6c7; padding: 20px; margin: 0%;">
+            <div class="col-sm-4">
+                <img src="img/light full logo.png" class="img-fluid" style="width: 120px;"><br><br>
+                <p>Coffee Time, Franchise Support Office, Suite #159, 5th Floor, Progressive Center,
+                    PECHS Block 6, Main Shahrah-e-Faisal, Karachi, Pakistan. POBOX 98400</p>
+
+                <div class="foricon">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+
+
+            </div>
+            <div class="col-sm-3"><br><br>
+                <h5 style="color: white;"><b>CONTACT US</b></h5><br>
+                <a href="" class=" footercontactus" style="text-decoration: none;"><b><i
+                            class="bi bi-telephone"></i> &nbsp;&nbsp;+92 21 65849552</b></a>
+                <br><br>
+                <a href="" class=" footercontactus" style="text-decoration: none;"><b><i
+                            class="bi bi-geo-alt-fill"></i> &nbsp;&nbsp;SD-1, Block A North Nazimabad Town, Karachi,
+                        Karachi City, Sindh 74700, Pakistan
+                    </b></a><br><br>
+                <a href="mailto:excellentcoaching49@gmail.com" class=" footercontactus"
+                    style="text-decoration: none;"><b><i class="bi bi-envelope-fill"></i>
+                        &nbsp;&nbsp;coffeetime49@gmail.com</b></a>
+            </div>
+
+
+            <div class="col-sm-3"><br><br>
+                <h5 style="color: white;"><b>QUICK ACCESS</b></h5><br>
+                <a href="/aboutus.html" class="footerlinks" style="text-decoration: none;"><b>ABOUT
+                        US</b></a><br><br>
+                <a href="/contactus.html" class="footerlinks" style="text-decoration: none;"><b>CONTACT
+                        DETAILS</b></a><br><br>
+                <a href="/coffeeshop.html" class="footerlinks" style="text-decoration: none;"><b>SHOP</b></a><br><br>
+                <a href="/registrationform.html" class="footerlinks" style="text-decoration: none;"><b>FORM</b></a>
+            </div>
+            <div class="col-sm-2"><br><br>
+                <h5 style="color: white;"><b>LIKE US</b></h5><br>
+                <div class="fb-like" data-href="https://www.facebook.com/ELC.009" data-width=""
+                    data-layout="box_count" data-action="like" data-size="small" data-share="true"></div>
+
+            </div>
+        </div>
+
+
+        <div class="row w-100" style="background-color: #21120a; height: 80px; margin: 0%;">
+
+            <div class="col-12 col-md-6" style="padding: 18px;">
+                <img src="img/light half logo.png" height="50px">
+            </div>
+            <div class=" col-12 col-md-6" style="padding: 25px; color:grey;">
+                <p>Copyright © 2023,Coffee Time,All rights reserved</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0"
+    nonce="39LCxC4V"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<!-- javascripting for navbar -->
+
+<script>
+
+    const body = document.querySelector("body"),
+        nav = document.querySelector("nav"),
+        modeToggle = document.querySelector(".dark-light"),
+        searchToggle = document.querySelector(".searchToggle"),
+        sidebarOpen = document.querySelector(".sidebarOpen"),
+        siderbarClose = document.querySelector(".siderbarClose");
+
+
+    let getMode = localStorage.getItem("mode");
+    if (getMode && getMode === "dark-mode") {
+        body.classList.add("dark");
+    }
+
+    // js code to toggle dark and light mode
+    modeToggle.addEventListener("click", () => {
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        // js code to keep user selected mode even page refresh or file reopen
+        if (!body.classList.contains("dark")) {
+            localStorage.setItem("mode", "light-mode");
+        } else {
+            localStorage.setItem("mode", "dark-mode");
+        }
+    });
+
+    //   js code to toggle sidebar
+    sidebarOpen.addEventListener("click", () => {
+        nav.classList.add("active");
+    });
+
+    body.addEventListener("click", e => {
+        let clickedElm = e.target;
+
+        if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")) {
+            nav.classList.remove("active");
+        }
+    });
+
+</script>
+
+
+<!-- javascripting for navbar locating top on scrolling -->
+
+
+<script>
+    var header = document.querySelector('.responsivenav');
+    var origOffsetY = header.offsetTop;
+
+    function onScroll(e) {
+        window.scrollY >= origOffsetY ? header.classList.add('sticky') :
+            header.classList.remove('responsivenav');
+    }
+
+    document.addEventListener('scroll', onScroll);
+</script>
+
+</body>
+
+</html>
