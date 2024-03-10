@@ -194,6 +194,7 @@ padding: 10px;
 body{
     background-size: cover;
     background-image: url(img/reg.jpg);
+    background-repeat: no-repeat;
 }
 
 
