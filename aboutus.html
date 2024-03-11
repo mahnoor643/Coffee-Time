@@ -8,6 +8,8 @@
     <title>About us</title>
     <link rel="icon" href="img/dark half logo.png" type="image/png" sizes="30x30">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="style.css">
@@ -229,7 +231,7 @@
                 discover why we truly believe that coffee is more than just a drink.
                 .</strong> </p></div>
                 <div class="col-md-4">
-                    <img class="img-fluid" src="img/2.jpg" alt="">
+                    <img data-aos="flip-right" class="img-fluid" src="img/2.jpg" alt="">
                 </div>
             </div>
             </div>
@@ -378,6 +380,11 @@
     });
 
 </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 
 <!-- javascripting for navbar locating top on scrolling -->
