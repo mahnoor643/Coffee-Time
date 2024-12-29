@@ -1,4 +1,30 @@
-"Coffee Time represents my meticulously crafted front-end website, designed as an exquisite template showcasing elegant aesthetics. Remarkably, this creation stands independent of any backend architecture, relying on the sophisticated design principles and responsive features inherent in Bootstrap 5. The utilization of this cutting-edge framework enhances the visual appeal and user experience, creating a seamless and visually pleasing environment. With an emphasis on design finesse, Coffee Time serves as a testament to the artistry achievable in front-end development, employing the latest web technologies to deliver a captivating and engaging user interface."
+# Coffee Time
+
+**Coffee Time** is a meticulously crafted front-end website, serving as an exquisite template that showcases elegant aesthetics and responsive design. Built entirely using **Bootstrap 5**, this project highlights the power of front-end development without relying on any backend architecture.
+
+---
+
+## 🌟 Features
+- **Elegant Design**: A visually pleasing and professionally crafted interface.
+- **Responsive Layout**: Ensures a seamless experience across devices.
+- **Bootstrap 5**: Leverages cutting-edge web design principles for enhanced usability.
+
+---
+
+## 📂 Project Overview
+- **Main Page**: The central hub featuring the core design elements of the website.
+- **Technologies Used**: 
+  - **HTML**: Provides the structural framework.
+  - **CSS**: Styles the website with modern aesthetics.
+  - **Bootstrap 5**: Adds responsive and interactive features effortlessly.
+
+---
+
+## 🖥️ How to View the Website
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahnoor643/Coffee-Time
+
 
 [documentation.docx](https://github.com/mahnoor643/Coffee-Time/files/14563357/documentation.docx)
 
